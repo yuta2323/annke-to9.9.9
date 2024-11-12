@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happilyアンケート</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Happilyアンケート</h1>
+        <p class="question">Q. ご利用いただいた感想をお聞かせください</p>
+        <form id="survey-form">
+            <div class="option">
+                <input type="radio" id="option1" name="satisfaction" value="非常に満足">
+                <label for="option1">非常に満足</label>
+            </div>
+            <div class="option">
+                <input type="radio" id="option2" name="satisfaction" value="満足">
+                <label for="option2">満足</label>
+            </div>
+            <div class="option">
+                <input type="radio" id="option3" name="satisfaction" value="どちらでもない">
+                <label for="option3">どちらでもない</label>
+            </div>
+            <div class="option">
+                <input type="radio" id="option4" name="satisfaction" value="不満">
+                <label for="option4">不満</label>
+            </div>
+            <div class="option">
+                <input type="radio" id="option5" name="satisfaction" value="非常に不満">
+                <label for="option5">非常に不満</label>
+            </div>
+            <button type="submit" class="submit-button">次へ</button>
+        </form>
+    </div>
+
+    <!-- 外部JavaScriptファイルを読み込み -->
+    <script src="script.js"></script>
+</body>
+</html>

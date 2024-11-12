@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ご意見収集</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ご意見をご記入ください</h1>
+        <form id="feedback-form">
+            <label for="name">お名前（任意）:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">メールアドレス（任意）:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="comments">ご意見・ご感想:</label><br>
+            <textarea id="comments" name="comments" rows="5" required></textarea><br><br>
+
+            <button type="submit">送信する</button>
+        </form>
+    </div>
+    <script src="feedback.js"></script>
+</body>
+</html>
